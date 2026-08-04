@@ -576,8 +576,6 @@ def EDA_per_patient(patient_id, type, time_window):
 
     # feature_analysis.head(30)
 
-    patient_id = "P001"
-
 
     patient_data = EEG_all.copy()
     patient_data["patient_id"] = patient_id
