@@ -1,0 +1,86 @@
+================================================================================
+EEG EDA OUTPUT
+================================================================================
+Started: 2026-09-27 18:13:13.270105
+Output file: EDA_EEG_output.txt
+================================================================================
+
+140 | easy | 96 windows -> 1 row
+140 | hard | 96 windows -> 1 row
+140 | relaxation | 96 windows -> 1 row
+141 | easy | 93 windows -> 1 row
+141 | hard | 96 windows -> 1 row
+141 | relaxation | 96 windows -> 1 row
+Missing: /Users/krisha/Projs/Neuro-brain-states/Datasets/EPIStress/ES247/Lab/Features/arithmetix_easy/EEG_features_30_sec.pickle
+Missing: /Users/krisha/Projs/Neuro-brain-states/Datasets/EPIStress/ES247/Lab/Features/arithmetix_hard/EEG_features_30_sec.pickle
+Missing: /Users/krisha/Projs/Neuro-brain-states/Datasets/EPIStress/ES247/Lab/Features/relaxation_video/EEG_features_30_sec.pickle
+257 | easy | 96 windows -> 1 row
+257 | hard | 96 windows -> 1 row
+257 | relaxation | 96 windows -> 1 row
+260 | easy | 96 windows -> 1 row
+260 | hard | 94 windows -> 1 row
+260 | relaxation | 95 windows -> 1 row
+313 | easy | 96 windows -> 1 row
+313 | hard | 96 windows -> 1 row
+313 | relaxation | 94 windows -> 1 row
+362 | easy | 96 windows -> 1 row
+362 | hard | 94 windows -> 1 row
+362 | relaxation | 96 windows -> 1 row
+404 | easy | 97 windows -> 1 row
+404 | hard | 96 windows -> 1 row
+404 | relaxation | 96 windows -> 1 row
+437 | easy | 99 windows -> 1 row
+437 | hard | 93 windows -> 1 row
+437 | relaxation | 96 windows -> 1 row
+446 | easy | 94 windows -> 1 row
+446 | hard | 96 windows -> 1 row
+446 | relaxation | 96 windows -> 1 row
+491 | easy | 6 windows -> 1 row
+491 | hard | 6 windows -> 1 row
+491 | relaxation | 96 windows -> 1 row
+Number of EEG features: 193
+Number of observations: 30
+
+Shape:
+(30, 195)
+
+Missing values:
+0
+
+Constant features:
+[]
+Number: 0
+Original features: 193
+After variance filtering: 193
+Removed: 0
+
+Removed features:
+[]
+Highly correlated pairs: 556
+Features to remove due to high correlation:
+['γ_TP9', 'θ_AF7', 'β_AF7', 'γ_AF7', 'α_AF8', 'β_AF8', 'γ_AF8', 'δ_TP10', 'β_TP10', 'γ_TP10', 'avg_δ', 'avg_θ', 'avg_α', 'avg_β', 'avg_γ', 'rat_(θ + α)/β', 'rat_(θ + α)/(α + β)', 'rat_θ/β', 'rat_β/(θ + α)', 'rat_θ/α', 'TP9_a5_std', 'TP9_a5_rms', 'TP9_a5_energy', 'TP9_d5_variance', 'TP9_d5_std', 'TP9_d5_rms', 'TP9_d5_energy', 'TP9_d4_variance', 'TP9_d4_std', 'TP9_d4_rms', 'TP9_d4_energy', 'TP9_d3_median', 'TP9_d3_std', 'TP9_d3_rms', 'TP9_d3_energy', 'AF7_a5_variance', 'AF7_a5_std', 'AF7_a5_kurtosis', 'AF7_a5_rms', 'AF7_a5_energy', 'AF7_d5_variance', 'AF7_d5_std', 'AF7_d5_skew', 'AF7_d5_rms', 'AF7_d5_energy', 'AF7_d4_variance', 'AF7_d4_std', 'AF7_d4_rms', 'AF7_d4_energy', 'AF7_d3_std', 'AF7_d3_rms', 'AF7_d3_energy', 'AF8_a5_median', 'AF8_a5_variance', 'AF8_a5_std', 'AF8_a5_kurtosis', 'AF8_a5_rms', 'AF8_a5_energy', 'AF8_d5_variance', 'AF8_d5_std', 'AF8_d5_skew', 'AF8_d5_kurtosis', 'AF8_d5_rms', 'AF8_d5_energy', 'AF8_d4_std', 'AF8_d4_rms', 'AF8_d4_energy', 'AF8_d3_std', 'AF8_d3_rms', 'AF8_d3_energy', 'TP10_a5_variance', 'TP10_a5_std', 'TP10_a5_kurtosis', 'TP10_a5_rms', 'TP10_a5_energy', 'TP10_d5_variance', 'TP10_d5_std', 'TP10_d5_skew', 'TP10_d5_kurtosis', 'TP10_d5_rms', 'TP10_d5_energy', 'TP10_d4_std', 'TP10_d4_kurtosis', 'TP10_d4_rms', 'TP10_d4_energy', 'TP10_d3_std', 'TP10_d3_rms', 'TP10_d3_energy', 'avg_a5_std', 'avg_a5_rms', 'avg_a5_energy', 'avg_d5_variance', 'avg_d5_std', 'avg_d5_kurtosis', 'avg_d5_rms', 'avg_d5_energy', 'avg_d4_variance', 'avg_d4_std', 'avg_d4_kurtosis', 'avg_d4_rms', 'avg_d4_energy', 'avg_d3_variance', 'avg_d3_std', 'avg_d3_kurtosis', 'avg_d3_rms', 'avg_d3_energy']
+
+Number removed: 106
+Before correlation filtering: 193
+After correlation filtering: 87
+Significant features after FDR: 0
+Percentage: 0.0
+Components for 90% variance: 14
+Components for 95% variance: 19
+Final selected features: 0
+[]
+Final selected features: 0
+[]
+F7', 'β_AF7', 'γ_AF7', 'α_AF8', 'β_AF8', 'γ_AF8', 'δ_TP10', 'β_TP10', 'γ_TP10', 'avg_δ', 'avg_θ', 'avg_α', 'avg_β', 'avg_γ', 'rat_(θ + α)/β', 'rat_(θ + α)/(α + β)', 'rat_θ/β', 'rat_β/(θ + α)', 'rat_θ/α', 'TP9_a5_std', 'TP9_a5_rms', 'TP9_a5_energy', 'TP9_d5_variance', 'TP9_d5_std', 'TP9_d5_rms', 'TP9_d5_energy', 'TP9_d4_variance', 'TP9_d4_std', 'TP9_d4_rms', 'TP9_d4_energy', 'TP9_d3_median', 'TP9_d3_std', 'TP9_d3_rms', 'TP9_d3_energy', 'AF7_a5_variance', 'AF7_a5_std', 'AF7_a5_kurtosis', 'AF7_a5_rms', 'AF7_a5_energy', 'AF7_d5_variance', 'AF7_d5_std', 'AF7_d5_skew', 'AF7_d5_rms', 'AF7_d5_energy', 'AF7_d4_variance', 'AF7_d4_std', 'AF7_d4_rms', 'AF7_d4_energy', 'AF7_d3_std', 'AF7_d3_rms', 'AF7_d3_energy', 'AF8_a5_median', 'AF8_a5_variance', 'AF8_a5_std', 'AF8_a5_kurtosis', 'AF8_a5_rms', 'AF8_a5_energy', 'AF8_d5_variance', 'AF8_d5_std', 'AF8_d5_skew', 'AF8_d5_kurtosis', 'AF8_d5_rms', 'AF8_d5_energy', 'AF8_d4_std', 'AF8_d4_rms', 'AF8_d4_energy', 'AF8_d3_std', 'AF8_d3_rms', 'AF8_d3_energy', 'TP10_a5_variance', 'TP10_a5_std', 'TP10_a5_kurtosis', 'TP10_a5_rms', 'TP10_a5_energy', 'TP10_d5_variance', 'TP10_d5_std', 'TP10_d5_skew', 'TP10_d5_kurtosis', 'TP10_d5_rms', 'TP10_d5_energy', 'TP10_d4_std', 'TP10_d4_kurtosis', 'TP10_d4_rms', 'TP10_d4_energy', 'TP10_d3_std', 'TP10_d3_rms', 'TP10_d3_energy', 'avg_a5_std', 'avg_a5_rms', 'avg_a5_energy', 'avg_d5_variance', 'avg_d5_std', 'avg_d5_kurtosis', 'avg_d5_rms', 'avg_d5_energy', 'avg_d4_variance', 'avg_d4_std', 'avg_d4_kurtosis', 'avg_d4_rms', 'avg_d4_energy', 'avg_d3_variance', 'avg_d3_std', 'avg_d3_kurtosis', 'avg_d3_rms', 'avg_d3_energy']
+
+Number removed: 106
+Before correlation filtering: 193
+After correlation filtering: 87
+Significant features after FDR: 0
+Percentage: 0.0
+Components for 90% variance: 14
+Components for 95% variance: 19
+Final selected features: 0
+[]
+Final selected features: 0
+[]
